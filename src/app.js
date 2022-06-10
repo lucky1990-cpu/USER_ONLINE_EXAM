@@ -25,9 +25,6 @@ app.get('/SignUp',(req,res)=>{
 })
 
 
-
-
-
 console.log('hello online text application');
 
 
