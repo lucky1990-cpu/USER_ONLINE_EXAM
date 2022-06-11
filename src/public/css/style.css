@@ -1,6 +1,6 @@
 .login_home_page{
     
-    background-image: url("/img/login2.jpg");
+    background-image: url("/img/29985.jpg");
     background-size: cover;
 }
 .login_home_page1{
@@ -13,6 +13,18 @@ margin-left: 37%;
 margin-top: 6%;
 font-family: emoji;
 color: black;
+}
+
+.courseInfoHeadr{
+    
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+#login-userid{
+    background-color: antiquewhite;
+}
+#login-password{
+    background-color: antiquewhite;
 }
 
 
@@ -33,6 +45,9 @@ color: black;
 .paginationNav{
     padding: 4%;
 }
+.card-shedow{
+    box-shadow: 1px 2px black;
+}
 
 
 
@@ -45,13 +60,14 @@ color: black;
     border: 1.5px solid #0f1447; */
 
    
-    margin-top: 51%;
-    color: white;
+    margin-top: 35%;
+   
 }
 
 .login_input{
     width: 82%;
-    margin-left: 9%
+    margin-left: 9%;
+
 }
 #emailHelp{
     /* margin-top: 12%; */
