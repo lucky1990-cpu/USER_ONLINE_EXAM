@@ -23,7 +23,23 @@ app.get('/SignUp',(req,res)=>{
     res.render('SignUp')
 
 })
+//Course Info
+app.get('/CourseInfo',(req,res)=>{
+  res.render('CourseName');
+})
 
+//Course Info Pre Request
+
+app.get('/CourseInfoPreRequest',(req,res)=>{
+  res.render('CourseInfoPreRequest');
+
+})
+
+//Question Page
+
+app.get('/QuestionPage',(req,res)=>{
+    res.render('QuestionPage')
+})
 
 console.log('hello online text application');
 
